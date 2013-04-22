@@ -1,0 +1,1 @@
+class Shapedraw: ->throw new Error("Abstract method.")class Circle extends Shapedraw: -># Draw the Circle
