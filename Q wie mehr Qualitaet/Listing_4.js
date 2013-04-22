@@ -1,0 +1,1 @@
+module("Integration", {  setup: function() {    // setup für alle folgenden Tests  },  teardown: function() {    // aufräumen nach jedem Test  }});test("Neues Listitem anlegen", function() {  ...});

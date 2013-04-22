@@ -1,0 +1,1 @@
+/* * Beispiel JavaScript zur Demonstration von asynchronen Unit Tests mit QUnit. */var persistence = new Persistence();asyncTest("Laden von JSON Objekten", 1, function() {  persistence.load("objects.json", function() {    ok(true, "Testasynchroner Tests");    start();  });});
