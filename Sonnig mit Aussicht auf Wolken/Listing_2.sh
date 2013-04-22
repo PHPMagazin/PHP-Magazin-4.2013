@@ -1,0 +1,1 @@
+./zkCli.sh -server localhost:2181[zk: localhost:2181(CONNECTED) 1] ls /[configs, collections, zookeeper][zk: localhost:2181(CONNECTED) 2] ls /configs[myconf][zk: localhost:2181(CONNECTED) 4] ls /collections[collection1]
