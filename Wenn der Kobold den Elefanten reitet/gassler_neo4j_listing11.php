@@ -1,0 +1,1 @@
+$queryString = "g.V.as('x').outE('friends').inV.loop(2){it.loops < 3 && !(it.object.out('livesIn').has('name','Berlin'))}.back('x').name";
