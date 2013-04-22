@@ -1,0 +1,1 @@
+class ListingFeatureContext extends BehatContext {   // ...   /**   * @Given /^there are no CFPs$/   */   public function thereAreNoCfps()   {     $this->cleanupDatabase();   } }
