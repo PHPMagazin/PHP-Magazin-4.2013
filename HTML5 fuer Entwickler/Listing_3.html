@@ -1,0 +1,1 @@
+<div id="out" data-id="12345" data-name="Sebastian" data-screen-name="Phoenix"></div><script lang="text/javascript">  var el = document.querySelector('#out');  el.setAttribute('data-foo', 'bar');  var html = [];  for (var key in el.dataset) {    html.push(key, ': ', el.dataset[key], '<br/>');  }  el.innerHTML = html.join('');</script>
